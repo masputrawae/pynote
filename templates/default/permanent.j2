@@ -1,0 +1,10 @@
+---
+title: {{ title }}
+lastmod: {{ date.now }}
+tags:
+{% for tag in tags %}
+  - {{ tag }}
+{% endfor %}
+---
+
+{{ content }}

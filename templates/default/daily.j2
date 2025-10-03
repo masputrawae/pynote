@@ -1,0 +1,9 @@
+---
+tags:
+  - {{ daily.default.tag }}
+  - "{{ date.now("%Y-%m")}}"
+---
+
+# 📅 {{ date.now("%Y-%m-%d")}}
+
+<<[[{{ date.yesterday }}]] | {{ date.now("%Y-%m-%d")}} | [[{{ date.tomorrow}}]]>>

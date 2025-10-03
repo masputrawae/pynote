@@ -1,0 +1,23 @@
+username = "Unknown"
+
+[git]
+branch = "main"
+remote = "origin"
+ssh = "git@github.com:jhon/repo.git"
+
+[vault]
+base_path = "~/Notes/"
+subdirs = ["inbox", "reference", "permanent", "todos", "daily"]
+
+[[notes]]
+type = "inbox"
+template = "inbox.j2"
+[[notes.fields]]
+content = "Content: "
+
+[[notes]]
+type = "permanent"
+template = "inbox.j2"
+[[notes.fields]]
+title = "Title: "
+content = "Content: "

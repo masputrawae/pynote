@@ -1,10 +1,11 @@
 {
   "username": "Dogs",
   "notes": {
-    "vault_dir": "~/Notes",
-    "total_notes": 1420
+    "vault": "~/Notes",
+    "total": 1420
   },
   "git": {
+    "ready": true,
     "branch": "main",
     "remote": "origin",
     "ssh": "git@github.com:john/repo.git",
