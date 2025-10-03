@@ -10,14 +10,21 @@ base_path = "~/Notes/"
 subdirs = ["inbox", "reference", "permanent", "todos", "daily"]
 
 [[notes]]
-type = "inbox"
-template = "inbox.j2"
-[[notes.fields]]
+type = "Inbox"
+save_path = "inbox"
+template = "default/inbox.j2"
+
+[notes.field]
 content = "Content: "
+tags = "Tags (pisahkan dengan koma): "
 
 [[notes]]
-type = "permanent"
-template = "inbox.j2"
-[[notes.fields]]
+type = "Permanent"
+save_path = "permanent"
+template = "default/permanent.j2"
+
+[notes.field]
 title = "Title: "
-content = "Content: "
+tags = "Tags (pisahkan dengan koma): "
+
+

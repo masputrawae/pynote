@@ -57,3 +57,12 @@ with open(output_file, 'w', encoding='utf-8') as f:
 
 print(f"Catatan berhasil dibuat di: {output_file}")
 ```
+
+Fungsi Date untuk template
+```
+{{ date_time() }}                         {# 2025-10-03 #}
+{{ date_time("iso") }}                   {# 2025-10-03T16:12:45+07:00 #}
+{{ date_time("%d/%m/%Y") }}              {# 03/10/2025 #}
+{{ date_time("%A, %d %B %Y") }}          {# Friday, 03 October 2025 #}
+{{ date_time("simple", "2022-12-01") }}  {# 2022-12-01 #}
+```
