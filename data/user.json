@@ -1,0 +1,14 @@
+{
+  "username": "Dogs",
+  "notes": {
+    "vault_dir": "~/Notes",
+    "total_notes": 1420
+  },
+  "git": {
+    "branch": "main",
+    "remote": "origin",
+    "ssh": "git@github.com:john/repo.git",
+    "status": "Ok",
+    "last_backup": "2025-10-20 14:20"
+  }
+}

@@ -1,0 +1,2 @@
+main = ["CREATE", "READ", "UPDATE", "DELETE", "SHOW LIST"]
+
